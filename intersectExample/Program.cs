@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text;
 
 namespace intersectExample
 {
@@ -7,6 +8,8 @@ namespace intersectExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             string[] cars = { "Волга", "Москвич", "Нива", "Газель" };
             string[] buses = { "Газель", "Икарус", "ЛиАЗ"};
  

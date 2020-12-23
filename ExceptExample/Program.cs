@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text;
 
 namespace ExceptExample
 {
@@ -7,6 +8,8 @@ namespace ExceptExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // Список напитков в продаже
             string[] drinks = { "Вода", "Кока-кола", "Лимонад" , "Вино"};
             // Алкогольные напитки

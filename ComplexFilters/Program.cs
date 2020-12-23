@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using LinqModule.Unit_1.ComplexFilters.Models;
 
 namespace LinqModule.Unit_1.ComplexFilters
@@ -9,6 +10,8 @@ namespace LinqModule.Unit_1.ComplexFilters
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
            // Теперь у нас города будут храниться в списке стран (каждая страна должна иметь свои города).
            
            var Countries = new Dictionary<string, List<City>>();

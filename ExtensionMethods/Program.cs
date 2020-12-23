@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using LinqModule.Unit_0.ExtensionMethods.Models;
 
 namespace LinqModule.Unit_0.ExtensionMethods
@@ -9,6 +10,7 @@ namespace LinqModule.Unit_0.ExtensionMethods
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             /* Собрали для вас тут примеры использования методов-расширений. */
             /* Убирайте комментарии, вызывайте по одному и смотрите, как работают */
             

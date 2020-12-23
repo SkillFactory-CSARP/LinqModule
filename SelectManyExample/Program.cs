@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace LinqModule.Unit_1.SelectManyExample
 {
@@ -8,6 +9,8 @@ namespace LinqModule.Unit_1.SelectManyExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // Подготовим данные
             List<Student> students = new List<Student>
             {

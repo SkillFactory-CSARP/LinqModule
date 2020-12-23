@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using GroupJoinExample.Models;
 
 namespace GroupJoinExample
@@ -9,6 +10,8 @@ namespace GroupJoinExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // Список моделей
             var cars = new List<Car>()
             {

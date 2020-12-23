@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text;
 
 namespace ConcatExample
 {
@@ -7,6 +8,8 @@ namespace ConcatExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             string[] cars = { "Волга", "Москвич", "Москвич", "Нива", "Газель" };
             string[] buses = { "Газель", "Икарус", "ЛиАЗ"};
  

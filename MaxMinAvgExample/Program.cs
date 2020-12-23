@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using MaxMinAvgExample.Models;
 
 namespace MaxMinAvgExample
@@ -9,6 +10,8 @@ namespace MaxMinAvgExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             var nums = new [] { 1, 7, 45, 23 };
 
             Console.WriteLine("Проверим на простых числах");

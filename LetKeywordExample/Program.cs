@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using LinqModule.Unit_1.LetKeywordExample.Models;
 using System.Linq;
+using System.Text;
 
 namespace LinqModule.Unit_1.LetKeywordExample
 {
@@ -9,6 +10,8 @@ namespace LinqModule.Unit_1.LetKeywordExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // Наш список студентов
             List<Student> students = new List<Student>
             {

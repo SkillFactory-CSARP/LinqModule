@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using SkipWhileTakeWhile.Models;
 
 namespace SkipWhileTakeWhile
@@ -9,6 +10,8 @@ namespace SkipWhileTakeWhile
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // Подготовка данных
             var cars = new List<Car>()
             {

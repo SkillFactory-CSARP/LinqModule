@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using SimpleSorting.Models;
 
 namespace SimpleSorting
@@ -9,6 +10,8 @@ namespace SimpleSorting
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // Список студентов
             var  students = new List<Student>
             {

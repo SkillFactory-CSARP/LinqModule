@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text;
 
 namespace LinqModule.Unit_1.SimpleWhereExample
 {
@@ -7,6 +8,8 @@ namespace LinqModule.Unit_1.SimpleWhereExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             int[] numbers = { 1, 2, 3, 4, 10, 34, 55, 66, 77, 88 };
             
             var evenNums = from i in numbers

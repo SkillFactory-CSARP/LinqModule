@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using LinqModule.Unit_1.WhereExample.Models;
 
 namespace LinqModule.Unit_1.WhereExample
@@ -9,6 +10,8 @@ namespace LinqModule.Unit_1.WhereExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // Добавим Россию с её городами
             var russianCities = new List<City>();
             russianCities.Add(new City("Москва", 11900000));

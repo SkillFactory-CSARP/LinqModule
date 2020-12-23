@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text;
 
 namespace ZipExample
 {
@@ -7,6 +8,8 @@ namespace ZipExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             //  объявляем две коллекции
             var letters= new string[] { "A", "B", "C", "D", "E" };
             var numbers= new int[] { 1, 2, 3 };

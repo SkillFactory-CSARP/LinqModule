@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using LinqModule.Unit_1.SelectExample.Models;
 
 namespace LinqModule.Unit_1.SelectExample
@@ -9,6 +10,8 @@ namespace LinqModule.Unit_1.SelectExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // Подготовим данные
             List<Student> students = new List<Student>
             {

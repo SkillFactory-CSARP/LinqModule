@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using LinqModule.Unit_2.MultipleSelection.Models;
 
 namespace LinqModule.Unit_2.MultipleSelection
@@ -9,6 +10,8 @@ namespace LinqModule.Unit_2.MultipleSelection
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // Список студентов
             var  students = new List<Student>
             {

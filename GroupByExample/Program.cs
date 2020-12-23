@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using GroupByExample.Models;
 
 namespace GroupByExample
@@ -9,6 +10,8 @@ namespace GroupByExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             var cars = new List<Car>()
             {
                 new Car("Suzuki", "JP"),

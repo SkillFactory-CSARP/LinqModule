@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using DelayedExecuting.Models;
 
 namespace DelayedExecuting
@@ -9,6 +10,8 @@ namespace DelayedExecuting
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             var  students = new List<Student>
             {
                 new Student { Name="Андрей", Age=23 },

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using SumExample.Models;
 
 namespace SumExample
@@ -9,6 +10,8 @@ namespace SumExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // Список студентов
             var  students = new List<Student>
             {

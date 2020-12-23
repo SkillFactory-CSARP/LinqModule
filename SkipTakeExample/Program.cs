@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text;
 
 namespace SkipTakeExample
 {
@@ -7,6 +8,8 @@ namespace SkipTakeExample
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             var cars = new [] { "Volvo", "Opel",  "Suzuki",  "Toyota" , "Lada", "Kamaz" };
  
             // пропустим первые два элемента
